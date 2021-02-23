@@ -1,0 +1,101 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color:honeydew;
+}
+h1{
+    font-size: 70px;
+}
+img{
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+    border: 10px solid honeydew;
+
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+    color: White;
+    background-color:  rgb(121, 187, 160);
+    border-bottom:solid 3px rgb(77, 13, 13);
+    display: flex;
+    justify-content:space-around;
+    
+    
+ 
+}
+header nav 
+{ 
+  
+flex-direction: row;
+
+}
+
+.removeDecorations{
+    list-style: none;
+}
+main section{
+    color:rgb(90, 54, 54);
+    background-color:honeydew;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+
+footer{
+    color: whitesmoke;
+    border-top: 15px solid rgb(77, 13, 13) ;
+    background-color: rgb(97, 97, 97);
+  
+  text-align: center;
+}
+aside{
+    color:whitesmoke ;
+    background-color:honeydew;
+    display: flex;
+    justify-content:space-around;
+    
+}
+aside a{
+    color: whitesmoke;
+}
+
+.box-1{
+border: 10px transparent blue;
+text-decoration: underline;
+
+}
+.border-left{
+    border-left: 10px solid rgb(77, 13, 13);
+    padding-left: 15px;
+}
+.underline{
+    text-decoration: underline;
+}
+.background1{
+    background-image: url(./bg-image1.jpg);
+    width: 33%;
+}
+.background2{
+    background-image: url(./bgimage2.jpg);
+    width: 33%;
+    
+}
+.background3{
+    background-image: url(./bgimage3.jpg);
+    width: 33%;
+    
+}
+@media only screen and (max-width: 796px) {
+
+  main{
+
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
