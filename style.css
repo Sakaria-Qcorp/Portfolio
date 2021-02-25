@@ -30,9 +30,10 @@ header{
  
 }
 header nav { 
+    background-image: url("./bg-image1.jpg");
   display: flex;
 flex-direction: row;
-border: 5px solid rgb(90, 54, 54) ;
+border: 5px solid whitesmoke ;
 
 
 }
@@ -52,7 +53,7 @@ main section{
 .navLink{
     margin: 8px;
 
-    border:5px solid rgb(77, 13, 13) ;
+    border:5px solid  whitesmoke ;
     
     background-color:whitesmoke;
 }
