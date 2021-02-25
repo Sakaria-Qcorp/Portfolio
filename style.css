@@ -51,8 +51,16 @@ main section{
 }
 .navLink{
     margin: 8px;
-}
 
+    border:5px solid rgb(77, 13, 13) ;
+    
+    background-color:whitesmoke;
+}
+nav a{
+
+    color:rgb(121, 187, 160);
+    text-decoration: none;
+}
 
 footer{
     color: whitesmoke;
@@ -86,7 +94,7 @@ text-decoration: underline;
 }
 .background1{
     background-image: url("./bg-image1.jpg");
-    width: 33%;
+   width: 33%;
 }
 .background2{
     background-image: url("./bgimage2.jpg");
@@ -105,7 +113,7 @@ text-decoration: underline;
     display: flex;
     flex-direction: column;
   }
-  .media{ display: flex;
+  aside div{ display: flex;
     flex-direction: column;
     align-content: center;
     flex-grow: 1;
