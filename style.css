@@ -24,19 +24,23 @@ header{
     border-bottom:solid 3px rgb(77, 13, 13);
     display: flex;
     justify-content:space-around;
+    align-items: flex-end;
     
     
  
 }
-header nav 
-{ 
-  
+header nav { 
+  display: flex;
 flex-direction: row;
+border: 5px solid rgb(90, 54, 54) ;
+
 
 }
 
 .removeDecorations{
+    display: flex;
     list-style: none;
+    
 }
 main section{
     color:rgb(90, 54, 54);
@@ -44,6 +48,9 @@ main section{
     display: flex;
     align-items: flex-start;
     justify-content:space-between;
+}
+.navLink{
+    margin: 8px;
 }
 
 
@@ -78,24 +85,30 @@ text-decoration: underline;
     text-decoration: underline;
 }
 .background1{
-    background-image: url(./bg-image1.jpg);
+    background-image: url("./bg-image1.jpg");
     width: 33%;
 }
 .background2{
-    background-image: url(./bgimage2.jpg);
+    background-image: url("./bgimage2.jpg");
     width: 33%;
     
 }
 .background3{
-    background-image: url(./bgimage3.jpg);
+    background-image: url("./bgimage3.jpg");
     width: 33%;
     
 }
-@media only screen and (max-width: 796px) {
+@media screen and (max-width: 796px) {
 
-  main{
+  main section div{
 
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+  }
+  .media{ display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-grow: 1;
+
   }
 }
